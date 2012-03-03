@@ -18,7 +18,7 @@ console.log(person + " is looking at the first property on her list which is lis
 // This function will take the person string and concatenate it with a string of text that outputs the correct responce. In this example the property costs 1000000.	
 function checkMoney() { if (money < 1000000) {console.log(person + " dose not have enough money to buy this property.");
 	
-} else {if (money > 1000000) {console.log(person + " has enough money to buy this property.");
+} else {if (money > 1000000) {console.log(person + " has enough money to buy "+ hotProperties[0] );
 }}
 }
 // Here is where the function checkMoney is called.
@@ -42,7 +42,7 @@ function howManyProperties() {console.log(person + " has " + propertiesToCheck.l
 
 // number function = property timmer with wile loop.
 // this function will check the ammout of time on the propertyTimer and reduce the number by 1 iteration every time the wile loop runs. 
-function checkDay() { while (propertyTimer > 0) {console.log("Number of minutes " + hotProperties[0]+ " will be a hot property = " + propertyTimer);
+function checkDay() { while (propertyTimer > 0) {console.log("Number of minutes " + hotProperties[0] + " will be a hot property = " + propertyTimer);
 	propertyTimer--}
 	
 }

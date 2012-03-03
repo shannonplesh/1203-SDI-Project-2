@@ -1,5 +1,5 @@
 // Author: Shannon Plesh
-// Assignment 2
+// Assignment 2 for 1203
 // The purpose of this program is to determine if the person meets the criteria needed to buy a hot property.
 // Set variables
 credit = 1000000000000000, propertyTimer= 20, canBarrowMoney = true, money = 10000000, beachFrontMiami9 = "Hot property",beachFrontMiami8 = "Normal property",beachFrontMiami7 = "Normal property", person = "Serene", personP = "Serene\'s", propertiesToCheck = [beachFrontMiami9, beachFrontMiami8, beachFrontMiami7,];

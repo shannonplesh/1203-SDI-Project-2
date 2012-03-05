@@ -45,6 +45,8 @@ function howManyProperties() {console.log(person + " has " + propertiesToCheck.l
 function checkDay() { while (propertyTimer > 0) {console.log("Number of minutes " + hotProperties[0] + " will be a hot property = " + propertyTimer);
 	propertyTimer--}
 	
+	beachFrontMiami8 === "Hot Property"
+	
 }
 checkDay();	
 
@@ -81,3 +83,9 @@ if (credit > 10000000000) { console.log(personP + " got great credit!");
 	
 }
 checkCredit();
+
+function teee() { if (beachFrontMiami8 = "Hot Property") { console.log("string");
+	
+}
+	
+}

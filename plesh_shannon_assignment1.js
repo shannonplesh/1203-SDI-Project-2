@@ -2,7 +2,7 @@
 // Assignment 2 for 1203
 // The purpose of this program is to determine if the person meets the criteria needed to buy a hot property.
 // Set variables
-credit = 1000000000000000, propertyTimer= 20, canBarrowMoney = true, money = 10000000, beachFrontMiami9 = "Hot property",beachFrontMiami8 = "Normal property",beachFrontMiami7 = "Normal property", person = "Serene", personP = "Serene\'s", propertiesToCheck = [beachFrontMiami9, beachFrontMiami8, beachFrontMiami7,];
+credit = 1000000000000000, propertyTimer= 20, canBarrowMoney = true, money = 10000000, beachFrontMiami9 = "Hot property",beachFrontMiami8 = "Hot property",beachFrontMiami7 = "Normal property", person = "Serene", personP = "Serene\'s", propertiesToCheck = [beachFrontMiami9, beachFrontMiami8, beachFrontMiami7,];
 var hotProperties = ["beachFrontMiami8", "beachFrontMiami7", "beachFrontMiami9",]
 // Procedure
 // The code below introduces us to the person and the intent of the story.
@@ -45,7 +45,7 @@ function howManyProperties() {console.log(person + " has " + propertiesToCheck.l
 function checkDay() { while (propertyTimer > 0) {console.log("Number of minutes " + hotProperties[0] + " will be a hot property = " + propertyTimer);
 	propertyTimer--}
 	
-	beachFrontMiami8 === "Hot Property"
+	beachFrontMiami8 === "Normal Property"
 	
 }
 checkDay();	
@@ -84,8 +84,10 @@ if (credit > 10000000000) { console.log(personP + " got great credit!");
 }
 checkCredit();
 
-function teee() { if (beachFrontMiami8 = "Hot Property") { console.log("string");
+function teee() { if (beachFrontMiami8 === "Hot Property") { console.log("string");
 	
 }
 	
 }
+
+teee();

@@ -93,10 +93,8 @@ if (credit > 10000000000) { console.log(personP + " got great credit!");
 }
 checkCredit();
 
-function teee() { if (beachFrontMiami8 === "Hot Property") { console.log("string");
-	
-}
-	
-}
 
-teee();
+	
+function () {console.log(string);
+	
+}

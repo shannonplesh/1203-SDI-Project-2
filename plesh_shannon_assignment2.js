@@ -2,7 +2,16 @@
 // Assignment 2 for 1203
 // The purpose of this program is to determine if the person meets the criteria needed to buy a hot property.
 // Set variables
-credit = 1000000000000000, propertyTimer= 20, canBarrowMoney = true, money = 10000000, beachFrontMiami9 = "Hot property",beachFrontMiami8 = "Hot property",beachFrontMiami7 = "Normal property", person = "Serene", personP = "Serene\'s", propertiesToCheck = [beachFrontMiami9, beachFrontMiami8, beachFrontMiami7,];
+var credit = 1000000000000000
+var propertyTimer = 20
+var canBarrowMoney = true
+var money = 10000000
+var beachFrontMiami9 = "Hot property"
+var beachFrontMiami8 = "Hot property"
+var beachFrontMiami7 = "Normal property"
+var person = "Serene"
+var personP = "Serene\'s"
+var propertiesToCheck = [beachFrontMiami9, beachFrontMiami8, beachFrontMiami7,];
 var hotProperties = ["beachFrontMiami8", "beachFrontMiami7", "beachFrontMiami9",]
 // Procedure
 // The code below introduces us to the person and the intent of the story.
@@ -75,7 +84,7 @@ return status === true;
 // Below is where the boolean function checkForSale is called.
 checkForSale();
 
-// credit credit function.
+// credit credit function.This number function will check to see if the person has goood credit and console.log an output.
 function checkCredit() {
 if (credit > 10000000000) { console.log(personP + " got great credit!");
 
